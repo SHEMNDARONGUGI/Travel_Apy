@@ -1,0 +1,62 @@
+div#my_Division {
+    background-color: deepskyblue;
+    margin: 40px;
+    padding: 10px;
+    color: white;
+}
+
+#test {
+    background-color: lightskyblue;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+
+}
+
+#test img {
+    border-radius: 400px;
+    margin-right: 40px;
+}
+
+#test p {
+    color: white;
+    padding-top: 40px;
+}
+
+#main{
+    display: flex;
+    margin: 40px;
+}
+
+#payment{
+    background-color: deepskyblue;
+    margin-left: 40px;
+    padding: 30px;
+    color: white;
+    margin-right: 40px;
+    text-shadow: 6px 6px 12px black;
+
+
+}
+
+#accounting{
+    background-color: green;
+    margin-left: 40px;
+    padding: 30px;
+    color: white;
+    margin-right: 40px;
+    text-shadow: 6px 6px 12px black;
+}
+
+#advertisement{
+    background-color: yellow;
+    margin-left: 40px;
+    padding: 30px;
+    color: black;
+    margin-right: 40px;
+    text-shadow: 6px 6px 12px white;
+}
+
+#advertisement:hover,#accounting:hover,#payment:hover{
+    background-color: darkgray;
+}
